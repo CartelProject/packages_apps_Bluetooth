@@ -27,8 +27,6 @@ cc_library_shared {
     ],
     static_libs: [
         "libbluetooth-types",
-        // TODO(b/148645937) move this back to shared_libs
-        "libnativehelper",
     ],
     cflags: [
         "-Wall",
